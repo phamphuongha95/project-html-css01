@@ -1,0 +1,21 @@
+/* Đổi đơn vị px sang rem */
+html {
+  font-size: 62.5%;
+}
+body {
+  /* 16 px */
+  font-size: 1.6rem;
+}
+
+/* Common CSS */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Start Header */
+
+/* End Header */
