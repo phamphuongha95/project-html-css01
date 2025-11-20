@@ -101,4 +101,11 @@ li {
   text-align: center;
   margin-left: 49px;
 }
+
+.header .body .btn-signup:hover {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8),
+    0 0 24px rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+  transition: 0.25s ease;
+}
 /* End Header */
