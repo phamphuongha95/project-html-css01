@@ -117,6 +117,7 @@ li {
 /* Hero sction */
 .hero {
   background-color: var(--background-color);
+  padding-bottom: 111.61px;
 }
 
 .hero .main-content {
@@ -276,7 +277,7 @@ li {
 /* Our popular courses section */
 .our-popular-courses {
   background-color: #fff;
-  padding-top: 249px;
+  padding-top: 153px;
 }
 .our-popular-courses .main-content {
   align-items: center;
