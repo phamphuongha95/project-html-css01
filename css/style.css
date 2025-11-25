@@ -370,7 +370,7 @@ li {
 
 .our-popular-courses .popular-courses .course-item:hover {
   /* transform: translateY(-12px); */
-  box-shadow: 0 24px 48px rgba(15, 15, 15, 0.18);
+  box-shadow: 2px 4px 12px -10px #5f5b53;
   filter: saturate(1.02);
 }
 
