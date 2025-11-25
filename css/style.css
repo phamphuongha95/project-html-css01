@@ -294,7 +294,7 @@ li {
   width: 458px;
 }
 
-.our-popular-courses .head-text h1 {
+.our-popular-courses .head-text h2 {
   font-family: var(--font-heading);
   color: var(--primary-text-color);
   line-height: 48px;
