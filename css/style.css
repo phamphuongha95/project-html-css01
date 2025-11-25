@@ -356,6 +356,7 @@ li {
 .our-popular-courses .popular-courses {
   display: flex;
 }
+
 .our-popular-courses .popular-courses .course-item {
   width: 370px;
   height: 466px;
@@ -365,6 +366,12 @@ li {
   -moz-border-radius: 512px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
+}
+
+.our-popular-courses .popular-courses .course-item:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 24px 48px rgba(15, 15, 15, 0.18);
+  filter: saturate(1.02);
 }
 
 .our-popular-courses .popular-courses > img {
