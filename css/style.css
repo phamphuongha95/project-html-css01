@@ -327,11 +327,11 @@ li {
 .our-popular-courses .btn-pre-next {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
   border: 1px solid #ffb900;
   background: #ffb900;
   display: flex;
@@ -429,4 +429,101 @@ li {
 .our-popular-courses .popular-courses .btn-book-now:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   background: #ffb900;
+}
+
+/* Testimonial */
+.testimonial {
+  background-color: #2e2100;
+}
+
+.testimonial .main-content {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 380px;
+  padding-bottom: 99px;
+}
+
+.testimonial .left-bx {
+  margin-right: 241px;
+  width: 159px;
+  height: 188px;
+  margin-left: 146px;
+  margin-top: 93px;
+}
+
+.testimonial .left-bx img {
+  width: 72px;
+  height: 72px;
+}
+
+.testimonial .left-bx .author {
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  line-height: 34px;
+  font-weight: bold;
+  width: 130px;
+  height: 34px;
+  color: var(--white-color);
+  margin-top: 18px;
+}
+
+.testimonial .left-bx .position {
+  font-size: 1.4rem;
+  line-height: 26px;
+  color: var(--second-text-color);
+  width: 159px;
+  height: 26px;
+}
+
+.testimonial .left-bx .slides {
+  display: flex;
+  margin-top: 28px;
+  width: 30px;
+  height: 6px;
+}
+
+.testimonial .left-bx .slides .slide-item {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border: 0.11px solid #634700;
+  background: #634700;
+  margin-right: 6px;
+}
+
+.testimonial .left-bx .slides .active-slide-item {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border: 0.1px solid #ffb900;
+  background: #ffb900;
+  margin-right: 6px;
+}
+
+.testimonial .right-bx {
+  width: 770px;
+  height: 188px;
+  font-size: 2.6rem;
+  color: var(--white-color);
+  font-style: italic;
+  line-height: 40px;
+  position: relative;
+  margin-top: 93px;
+}
+
+.testimonial .right-bx p {
+  padding-top: 29px;
+}
+.testimonial .right-bx img {
+  position: absolute;
+  left: -30px;
 }
