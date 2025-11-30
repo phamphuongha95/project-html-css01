@@ -780,6 +780,7 @@ li {
   background-color: #2e2100;
   padding-top: 96px;
   padding-bottom: 38px;
+  width: 1170;
 }
 
 .footer .main-content {
@@ -790,7 +791,7 @@ li {
 }
 
 .footer .lesson {
-  width: 267px;
+  width: 380px;
   height: 163px;
   margin-right: 145px;
 }
@@ -848,6 +849,7 @@ li {
 
 .footer .adrr {
   width: 350px;
+  margin-right: 0;
 }
 
 .footer .adrr .left {
