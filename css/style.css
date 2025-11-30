@@ -644,12 +644,10 @@ li {
   width: 448px;
   height: 120px;
   margin: auto;
-}
-
-.our-blog .header {
   text-align: center;
   margin-bottom: 55px;
 }
+
 .our-blog .header h3 {
   font-family: var(--font-heading);
   font-size: 3.8rem;
