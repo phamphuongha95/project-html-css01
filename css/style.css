@@ -877,3 +877,9 @@ li {
   line-height: 26px;
   color: #807d74;
 }
+
+.main-content {
+  width: 1170px; /* hoặc 1200px, 1060px tùy anh muốn */
+  max-width: 100%; /* đảm bảo không bị tràn trên mobile */
+  margin: 0 auto; /* căn giữa */
+}
